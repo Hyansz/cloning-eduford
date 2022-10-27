@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Courses</title>
+</head>
+<body>
+    <!-- Section 1 -->
+
+    <section class="header-courses">
+        <nav>
+            <a href="index.html"><img src="Assets/images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="ri-close-line" onclick="hideMenu()" id="menu"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="ri-menu-line" onclick="showMenu()" id="menu"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Our Courses</h1>
+        </div>
+    </section>
+
+    <!-- Courses -->
+    <div class="courses">
+        <div class="container">
+            <div class="box-courses">
+                <div class="courses2">
+                    <h1>Courses we offer</h1>
+                    <p>Explore the intersection of technology and society. Learn about environmental justice. Take the famous Problem of God course. Our innovative courses inspire and invite you to help solve some of today's most pressing local, national and global issues.</p>
+                </div>
+                <div class="box">
+                    <h3>Intermediate</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia corrupti est doloremque possimus provident. Dolore facere est eligendi. Quia, asperiores.</p>
+                </div>
+                <div class="box">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia corrupti est doloremque possimus provident. Dolore facere est eligendi. Quia, asperiores.</p>
+                </div>
+                <div class="box">
+                    <h3>Post Graduate</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia corrupti est doloremque possimus provident. Dolore facere est eligendi. Quia, asperiores.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Facilities -->
+    <div class="facilities">
+        <div class="container">
+            <div class="facilities2">
+                <h1>Our Facilities</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, magnam!</p>
+            </div>
+            <div class="box-facilities">
+                <div class="box">
+                    <img src="Assets/images/library.png" alt="">
+                    <h2>Work Class Library</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime iusto veniam nostrum tempora deserunt mollitia commodi quaerat ducimus.</p>
+                </div>
+                <div class="box">
+                    <img src="Assets/images/basketball.png" alt="">
+                    <h2>Largest Play Ground</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime iusto veniam nostrum tempora deserunt mollitia commodi quaerat ducimus.</p>
+                </div>
+                <div class="box">
+                    <img src="Assets/images/cafeteria.png" alt="">
+                    <h2>Tasty and Healty Food</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime iusto veniam nostrum tempora deserunt mollitia commodi quaerat ducimus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="box-footer">
+                    <h4>About Us</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, qui.</p>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <p class="copyright">Made with <b>&hearts;</b> in Karanganyar</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Java Script -->
+    <script>
+
+        var menu = document.getElementById("navLinks");
+
+        function showMenu() {
+            menu.style.right = "0"
+            menu.style.display = "block";
+        }
+
+        function hideMenu() {
+            menu.style.right = "-200px"
+            // menu.style.display = "none";
+        }
+
+    </script>
+
+</body>
+</html>
